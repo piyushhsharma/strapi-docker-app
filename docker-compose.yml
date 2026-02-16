@@ -16,7 +16,6 @@ services:
       - pgdata:/var/lib/postgresql/data
     networks:
       - strapi-net
-
   strapi:
     build: .
     container_name: strapi
